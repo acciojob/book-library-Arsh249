@@ -7,9 +7,6 @@
             height: 100vh;
             margin: 0;
         }
-h1{
-	text-align:center;
-}
         .book-library {
             background-color: #ffffff;
             padding: 20px;
@@ -43,6 +40,13 @@ h1{
             margin: 5px 0;
         }
         .book-price {
-            color: #2ecc71;
+            background-color: #2ecc71;
+            color: #ffffff;
             font-weight: bold;
+            padding: 5px;
+            border-radius: 5px;
+            display: inline-block;
         }
+h1{
+	text-align:center;
+}
